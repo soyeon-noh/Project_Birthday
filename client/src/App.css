@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: none;
+}
+
+.App {
+  text-align: center;
+  font-family: "Press Start 2P";
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header p {
+  margin: 0;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.video {
+  width: "100%";
+  height: "100%";
+  background: "rgba(245, 240, 215, 0.5)";
+}
+
+.section {
+  min-height: 70vh;
+  margin: 30px;
+}
+
+.nes-container {
+}
+
+.nes-btn {
+  margin: 10px;
+}
